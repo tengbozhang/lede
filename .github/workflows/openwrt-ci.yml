@@ -13,8 +13,8 @@ on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: 0 20 * * *
+  #schedule:
+ #   - cron: 0 20 * * *
   release:
     types: [published]
 
@@ -92,7 +92,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
-          CONFIG_TARGET_ramips_mt7620_DEVICE_psg1218a=y
+          # CONFIG_TARGET_ramips_mt7620_DEVICE_psg1218a=y
           EOF
           # 固件压缩:
           # cat >> .config <<EOF
