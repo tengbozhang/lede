@@ -92,7 +92,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
-          CONFIG_TARGET_ramips_mt7620_psg1218=y
+          CONFIG_TARGET_ramips_mt7620_psg1218a=y
           EOF
           # 固件压缩:
           # cat >> .config <<EOF
